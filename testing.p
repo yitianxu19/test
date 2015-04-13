@@ -24,6 +24,6 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
 DEFINE VARIABLE test AS CHARACTER NO-UNDO.
 
 ASSIGN test = "hello world". 
-
+assign test = "tt". 
 MESSAGE test
 VIEW-AS ALERT-BOX.
