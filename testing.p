@@ -27,3 +27,5 @@ ASSIGN test = "hello world".
 assign test = "tt". 
 MESSAGE test
 VIEW-AS ALERT-BOX.
+MESSAGE "tt"
+VIEW-AS ALERT-BOX.
