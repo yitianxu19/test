@@ -22,7 +22,8 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
 /* ***************************  Main Block  *************************** */
 
 DEFINE VARIABLE test AS CHARACTER NO-UNDO.
-
+MESSAGE "x"
+VIEW-AS ALERT-BOX.
 ASSIGN test = "hello world". 
 assign test = "tt". 
 MESSAGE test
